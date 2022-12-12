@@ -39,7 +39,7 @@ You can look at the same [exercise]([url](https://campus.datacamp.com/courses/ca
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+<img width="606" alt="ex-2-sol" src="https://user-images.githubusercontent.com/10840082/206968826-65e220f1-a5f5-4dd2-983f-1ec934ef825f.png">
 
 ## Finalized Workbook
 
