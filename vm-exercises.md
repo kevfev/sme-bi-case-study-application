@@ -51,4 +51,5 @@ Which answers will the learner be able to solve once building this? How does it 
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+<img width="606" alt="ex-2-sol" src="https://user-images.githubusercontent.com/10840082/206968826-65e220f1-a5f5-4dd2-983f-1ec934ef825f.png">
+
