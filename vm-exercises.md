@@ -22,13 +22,13 @@ While uncovering the products that customers tend to purchase together (i.e. the
 #### Steps to be executed by the student (max 6)
 
 
-- Step 1) In the Product Catalog, select the product with ID-NAME combination "3882 - WHITE HANGING HEART T-LIGHT HOLDER". Observe the product purchases and basket purchases table.
-- Step 2) In the Antecedent set, select the product with ID-NAME combination "3882 - WHITE HANGING HEART T-LIGHT HOLDER" 
-- Step 3) In the Consequent set, select the product with ID-NAME combination "3948 - WOODEN PICTURE FRAME WHITE FINISH" 
+- In the Product Catalog, select the product with ID-NAME combination "3882 - WHITE HANGING HEART T-LIGHT HOLDER". Observe the product purchases and basket purchases table.
+- In the Antecedent set, select the product with ID-NAME combination "3882 - WHITE HANGING HEART T-LIGHT HOLDER" 
+- In the Consequent set, select the product with ID-NAME combination "3948 - WOODEN PICTURE FRAME WHITE FINISH" 
 
 #### Exercise question:
 
-What's the lift of the rule "3882 - WHITE HANGING HEART T-LIGHT HOLDER" -> "3948 - WOODEN PICTURE FRAME WHITE FINISH" 
+What's the lift of the rule "3882 - WHITE HANGING HEART T-LIGHT HOLDER"  --> "3948 - WOODEN PICTURE FRAME WHITE FINISH" 
 
 #### End goal:
 
