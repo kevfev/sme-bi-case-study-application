@@ -1,41 +1,34 @@
 # Virtual Machine (VM) Exercises
 
-## :information_source: Read this before getting started
-- The goal of exercises in case study is for learners to apply what was learned in the previous courses to new problems or situations. This is best pedagogical practice for retaining and building skills.
-- We can only run free versions of BI software in our virtual machine exercises. In the case of Power BI, make sure the exercises can run on [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) without any additional paid products. 
-- Unsure what the scope of an exercise should be? Here's an [example](https://campus.datacamp.com/courses/case-study-analyzing-customer-churn-in-tableau/exploratory-analysis-1?ex=4) from the Case Study: Analyzing Customer Churn in Tableau. The first chapter of most DataCamp courses are free, so take a look at our [BI courses](https://learn.datacamp.com/courses?technologies=Tableau&technologies=Power%20BI) to get a feel for how we assess and guide learners in **case studies**.
-
 ## 1st VM Exercise
 
 #### Dataset
 
-- [ ] Add datasets used to the `datasets/` folder
+- [ ] [Retail Dataset](https://github.com/kevfev/sme-bi-case-study-application/blob/master/datasets/Market%20Basket%20Analysis%20-%20Retail%20Data.xlsx)
 
 #### Files
 
-- [ ] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
-- [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix`
+- [ ] **Initial**: [ex-1-intial.pbix](https://github.com/kevfev/sme-bi-case-study-application/blob/master/exercises/ex-2-initial.pbix)
+- [ ] **Solution**: [ex-1-sol.pbix](https://github.com/kevfev/sme-bi-case-study-application/blob/master/exercises/ex-2-sol.pbix)
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+Learn how to create basic association rules for 2 product basket and assess the strenght of the rule using support, confidence, and lift.
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
-You can look at the same [exercise]([url](https://campus.datacamp.com/courses/case-study-analyzing-customer-churn-in-tableau/exploratory-analysis-1?ex=4)) from the Case Study: Analyzing Customer Churn in Tableau on how to write a good context.
+While uncovering the products that customers tend to purchase together (i.e. the baskets), we need metrics to help quantify the strength of this association. How can we tell if someone who purchases product A is also likely to purchase product B? By looking at the support, confidence, and lift of a particular product combination (i.e. an association rule), we can understand how likely it for customers to purchase these items, how often customers who purchase A also purchase B, and whether or not customers tend to purchase B only when purchasing A.
 
 #### Steps to be executed by the student (max 6)
 
-*Each bulleted instruction is a complete sentence that describes a specific task.*
 
-- Step 1
-- Step 2
-- Step 3
-- ...
+- Step 1) In the Product Catalog, select the product with ID-NAME combination "3882 - WHITE HANGING HEART T-LIGHT HOLDER". Observe the product purchases and basket purchases table.
+- Step 2) In the Antecedent set, select the product with ID-NAME combination "3882 - WHITE HANGING HEART T-LIGHT HOLDER" 
+- Step 3) In the Consequent set, select the product with ID-NAME combination "3948 - WOODEN PICTURE FRAME WHITE FINISH" 
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+
+What's the lift of the rule "3882 - WHITE HANGING HEART T-LIGHT HOLDER" -> "3948 - WOODEN PICTURE FRAME WHITE FINISH" 
 
 #### End goal:
 
@@ -44,10 +37,10 @@ You can look at the same [exercise]([url](https://campus.datacamp.com/courses/ca
 ## Finalized Workbook
 
 #### Files
-You can upload your final workbook in the exercises folder as `ex-final-sol.twbx` or `ex-final-sol.pbix`.
+[ex-1-sol.pbix](https://github.com/kevfev/sme-bi-case-study-application/blob/master/exercises/ex-2-sol.pbix)
 
 #### Explanation & Description
-Which answers will the learner be able to solve once building this? How does it fit in the bigger picture?
+The learner will understand how to manually construct association rules, and how to evaluate association rules using support, confidence and lift. This is a key learning objective as understanding how to use these metrics is critical to analyzing whether an association rule suggests a potentially profitable product combination or not.
 
 #### End goal:
 
